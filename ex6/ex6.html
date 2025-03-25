@@ -1,0 +1,61 @@
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <script>
+    AFRAME.registerComponent("mylink", {
+      init: function () {
+        this.el.addEventListener("click", (e) => {
+          window.location = this.data.href;
+        })
+      }
+    })
+  </script>
+
+<body>
+  
+  <a-scene cursor="rayOrigin: mouse">
+    <a-assets>
+      <img id="imgSortida" src="yendo.jpeg"> 
+
+      <a-asset-item id="fantasma" src="spooky_ghost/scene.gltf"></a-asset-item>
+      
+      <a-asset-item id="batman" src="bat/scene.gltf"></a-asset-item>
+
+    </a-assets>
+
+    <a-entity camera look-controls wasd-controls="false">
+      <a-entity cursor="fuse: true; fuseTimeout: 2000" position="0 0 -1"
+        geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03" material="color: red; shader: flat" animation="property: components.material.material.color;
+              type: color;
+              to: white;
+              dur: 1000;
+              dir: alternate;
+              loop: true">
+      </a-entity>
+    </a-entity>
+
+    <a-sky src="assets/casadelsusto (1).jpg"></a-sky>
+
+    <a-entity gltf-model="#batman" position="3 6 12" scale="1 1 1"
+    animation="property: position; dur: 1000; from: 3 6 12; to: 3 6 10; dir: alternate; loop: true">         
+
+    </a-entity>
+
+    <a-entity gltf-model="#fantasma" position="-15 -15 -100" scale="5 5 5"
+                animation="property: position; dur: 1000; from: -15 -15 -1100; to: 0 -15 -30; dir: alternate; loop: true">        
+      </a-entity>
+
+
+      <a-box position="-17 0.3 3.50" src="#imgSortida" rotation="0 150 0"  transparent="true"   mylink="href:https://vegettta777.github.io/web3d/;"
+                animation="property: rotation; dur: 10000;
+                to: 0 360 0; loop: true"> 
+
+      </a-box>
+    </a-scene>
+
+
+
+</body>
+
+</head>
