@@ -1,5 +1,4 @@
 <html>
-
 <head>
   <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
   <script>
@@ -22,6 +21,8 @@
       
       <a-asset-item id="batman" src="bat/scene.gltf"></a-asset-item>
 
+      <img id="herobrine" id="herobrine" src="herobrine.png">
+
     </a-assets>
 
     <a-entity camera look-controls wasd-controls="false">
@@ -42,9 +43,20 @@
 
     </a-entity>
 
+    <a-entity gltf-model="#batman" position="24 6 -5" rotation="0 90 0"scale="1 1 1"
+    animation="property: position; dur: 1000; from: 24 6 -5; to: 24 6 -6; dir: alternate; loop: true">         
+
+    </a-entity>
+
+
+                
     <a-entity gltf-model="#fantasma" position="-15 -15 -100" scale="5 5 5"
                 animation="property: position; dur: 1000; from: -15 -15 -1100; to: 0 -15 -30; dir: alternate; loop: true">        
       </a-entity>
+
+    <a-plane position="24 1 -5" src="herobrine.png">
+
+    </a-plane>  
 
 
       <a-box position="-17 0.3 3.50" src="#imgSortida" rotation="0 150 0"  transparent="true"   mylink="href:https://vegettta777.github.io/web3d/;"
@@ -57,5 +69,4 @@
 
 
 </body>
-
 </head>
