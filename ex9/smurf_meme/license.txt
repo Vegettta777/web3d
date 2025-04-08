@@ -1,0 +1,11 @@
+Model Information:
+* title:	Smurf Meme
+* source:	https://sketchfab.com/3d-models/smurf-meme-be6e2754a26e48b4afc9e9faa4ef60a5
+* author:	Art_bor (https://sketchfab.com/Art_bor)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Smurf Meme" (https://sketchfab.com/3d-models/smurf-meme-be6e2754a26e48b4afc9e9faa4ef60a5) by Art_bor (https://sketchfab.com/Art_bor) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

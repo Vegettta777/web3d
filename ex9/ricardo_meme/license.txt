@@ -1,0 +1,11 @@
+Model Information:
+* title:	ricardo meme
+* source:	https://sketchfab.com/3d-models/ricardo-meme-5bd579785ddb4a8f91f874ed2d70c617
+* author:	MrGreycat4k (https://sketchfab.com/es4674569)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "ricardo meme" (https://sketchfab.com/3d-models/ricardo-meme-5bd579785ddb4a8f91f874ed2d70c617) by MrGreycat4k (https://sketchfab.com/es4674569) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
